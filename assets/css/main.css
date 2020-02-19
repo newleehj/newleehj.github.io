@@ -2791,7 +2791,8 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 1.3rem 0 0 5px;
+				display: inline-block;
 			}
 
 				ul.actions.stacked li:first-child {
