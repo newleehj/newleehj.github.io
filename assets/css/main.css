@@ -2791,8 +2791,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 5px;
-				display: inline-block;
+				padding: 1.3rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -8601,4 +8600,22 @@ input, select, textarea {
 
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
+			}
+
+			/* 추가 */
+			
+			.content {position: relative;}
+
+		 	.stacked > li:nth-child(2) {
+				position: absolute;
+				top:212px;
+				left:305px;
+				z-index:999;
+			}
+
+			.stacked > li:nth-child(3) {
+				position: absolute;
+				top:212px;
+				left:548px;
+				z-index:999;
 			}
