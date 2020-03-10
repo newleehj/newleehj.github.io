@@ -2118,7 +2118,7 @@ input, select, textarea {
 		padding: 0 2.5em;
 		text-overflow: ellipsis;
 		overflow: hidden;
-		width:400px;
+		width:310px;
 	}
 
 		input[type="submit"].icon:before,
@@ -2146,7 +2146,7 @@ input, select, textarea {
 			height: 3.325em;
 			line-height: 3.325em;
 			border-radius: 3.325em;
-			padding: 0 1em;
+			padding: 0 2em;
 		}
 
 		input[type="submit"].large,
